@@ -36,17 +36,37 @@ namespace App2
             number += 10;
             number *= 3;
             number = 71 / 3;
+
             int count = 0;
             count++;
             count--;
+
             string result = "hello";
             result += " again " + result;
             output.Text = result;
             result = "the value is: " + count;
             result = "";
+
             bool yesNo = false;
             bool anotherBool = true;
             yesNo = !anotherBool;
+
+            for (int i = 0; i < length; i++)
+            {
+                
+            }
+
+            int someValue = 24;
+            string message = "";
+
+            if (someValue == 24)
+            {
+                message = "The value was 24.";
+            }
+            else
+            {
+                message = "The value wasn't 24.";
+            }
 
         }
     }
